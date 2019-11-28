@@ -131,3 +131,30 @@ C:\Users\mlutz.VISION\Desktop\GUI_Projekt2\GUI_Projekt2\GUI_Projekt\GUI_Projekt\
 C:\Users\mlutz.VISION\Desktop\GUI_Projekt2\GUI_Projekt2\GUI_Projekt\GUI_Projekt\obj\Debug\GUI_Projekt.csproj.CoreCompileInputs.cache
 C:\Users\mlutz.VISION\Desktop\GUI_Projekt2\GUI_Projekt2\GUI_Projekt\GUI_Projekt\obj\Debug\GUI_Projekt.exe
 C:\Users\mlutz.VISION\Desktop\GUI_Projekt2\GUI_Projekt2\GUI_Projekt\GUI_Projekt\obj\Debug\GUI_Projekt.pdb
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\bin\Debug\GUI_Projekt.exe.config
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\bin\Debug\GUI_Projekt.exe
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\bin\Debug\GUI_Projekt.pdb
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.csprojAssemblyReference.cache
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\CreateUserPage.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GamePage.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\InstructionsPage.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\LoginPage.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\MainWindow.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\StartPage.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\App.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt_MarkupCompile.cache
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt_MarkupCompile.lref
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\CreateUserPage.baml
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GamePage.baml
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\InstructionsPage.baml
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\LoginPage.baml
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\MainWindow.baml
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\StartPage.baml
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.g.resources
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.Properties.Resources.resources
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.csproj.GenerateResource.cache
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.csproj.CoreCompileInputs.cache
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.exe
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.pdb
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\HighscorePage.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\HighscorePage.baml

@@ -4,15 +4,36 @@
     <Name>Markus</Name>
     <Password>test</Password>
     <Level>1</Level>
+    <Highscore>0</Highscore>
+    <Rang>0</Rang>
+    <BallSkin>test.jpg</BallSkin>
   </User>
   <User>
-    <Name>Markuss</Name>
+    <Name>Markus1</Name>
+    <Password>test1</Password>
+    <Level>1</Level>
+    <Highscore>500</Highscore>
+    <Rang>0</Rang>
+  </User>
+  <User>
+    <Name>Markus2</Name>
+    <Password>test2</Password>
+    <Level>1</Level>
+    <Highscore>300</Highscore>
+    <Rang>0</Rang>
+  </User>
+  <User>
+    <Name>Testuser</Name>
     <Password>test</Password>
     <Level>1</Level>
+    <Highscore>0</Highscore>
+    <Rang>0</Rang>
   </User>
   <User>
-    <Name>hallo</Name>
-    <Password>hallo</Password>
+    <Name>testuser2</Name>
+    <Password>test</Password>
     <Level>1</Level>
+    <Highscore>0</Highscore>
+    <Rang>0</Rang>
   </User>
 </ArrayOfUser>

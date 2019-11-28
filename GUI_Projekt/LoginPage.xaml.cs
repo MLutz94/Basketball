@@ -40,23 +40,32 @@ namespace GUI_Projekt
             XmlSerializer xs;
             xs = new XmlSerializer(typeof(List<User>));
 
-            int level;
+            
 
             FileStream fs = new FileStream("login.xml", FileMode.Open, FileAccess.Read);
             userList = (List<User>)xs.Deserialize(fs);
 
+            
             foreach (User user in userList)
             {
 
-                if (user.Name == UsernameTF.Text && user.Password == PasswordTF.Text)
+                if (user.Name == UsernameTF.Text && user.Password == PasswordTF.Password.ToString())
                 {
 
-                    level = user.Level;
+                    
                     User currentLoggedInUser = new User();
                     currentLoggedInUser.Name = user.Name;
-                    currentLoggedInUser.Level = level;
-
-                    StartPage NewStartPage = new StartPage();
+                    currentLoggedInUser.Level = user.Level;
+                    currentLoggedInUser.Highscore = user.Highscore;
+                    if (user.BallSkin == null)
+                    {
+                        currentLoggedInUser.BallSkin = "default.jpg";
+                    }
+                    else
+                    {
+                        currentLoggedInUser.BallSkin = user.BallSkin;
+                    }
+                    StartPage NewStartPage = new StartPage(currentLoggedInUser);
                     this.NavigationService.Navigate(NewStartPage);
 
                     break;

@@ -40,8 +40,8 @@ namespace GUI_Projekt
             userList = (List<User>)xs.Deserialize(fsr);
             fsr.Close();
             string username = CreateUsernameTF.Text;
-            string password = CreatePasswordTF.Text;
-            string retypepassword = RetypePasswordTF.Text;
+            string password = CreatePasswordTF.Password.ToString();
+            string retypepassword = RetypePasswordTF.Password.ToString();
             
 
             if (password == retypepassword &&( username != "" || password != "" || retypepassword != ""))
@@ -64,13 +64,14 @@ namespace GUI_Projekt
                 newUser.Name = username;
                 newUser.Password = password;
                 newUser.Level = 1;
+                newUser.Highscore = 0;
                 userList.Add(newUser);
                 
                 FileStream fsw = new FileStream("login.xml", FileMode.Open, FileAccess.Write);
                 xs.Serialize(fsw, userList);
-
-                InstructionsPage NewInstructionsPage = new InstructionsPage();
-                this.NavigationService.Navigate(NewInstructionsPage);
+                fsw.Close();
+                LoginPage NewLoginPage = new LoginPage();
+                this.NavigationService.Navigate(NewLoginPage);
 
 
             }

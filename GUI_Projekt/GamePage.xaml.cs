@@ -15,6 +15,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Drawing;
+
 
 namespace GUI_Projekt
 {
@@ -23,6 +25,7 @@ namespace GUI_Projekt
     /// </summary>
     public partial class GamePage : Page
     {
+        private User loggedInUser;
         private int gameArea_height;                //Spielfeldhöhe
         private int gameArea_width;                 //Spielfeldbreite
         private Ball NewBall;                       //Basketball
@@ -52,9 +55,11 @@ namespace GUI_Projekt
         private SolidColorBrush ArrowStartColor;        //Anfangsfarbe des Pfeils
         
         /* Konstruktor vom Objekt GamePage, wird beim Aufrufen der Spielfeldseite ausgeführt */
-        public GamePage()
+        public GamePage(User user_in)
         {
             InitializeComponent();
+            loggedInUser =user_in;
+
             gameArea_height = (int)GameArea.Height;     //Erhalte Werte für Spielfeldhöhe
             gameArea_width = (int)GameArea.Width;       //und -breite
 
@@ -77,8 +82,14 @@ namespace GUI_Projekt
 
             gravity = true;             //Schalte Schwerkraft ein
 
+
+
+            
+
+
+
             NewBallSkin = new Ellipse();        //neuer BallSkin
-            NewBallSkin.Fill = Brushes.Black;   //Farbe schwarz
+            NewBallSkin.Fill = getBallSkin();   //Farbe schwarz
             NewBall = new Ball(GameArea, NewBallSkin, BallStartPosition, ballWidth);    //erstelle Ballobjekt
             NewBall.isVisible = true;       //Mache Ball auf Spielfeld sichtbar
 
@@ -117,6 +128,23 @@ namespace GUI_Projekt
                 default: break;
             }
         }
+
+        /*Läd den vom User gespeicherten Ballskin */
+         private ImageBrush getBallSkin(){
+
+            string uriToSkin = loggedInUser.BallSkin;
+            ImageBrush brush = new ImageBrush();
+            BitmapImage image = new BitmapImage();
+            image.BeginInit();
+            image.UriSource = new Uri(uriToSkin, UriKind.Relative);
+            image.EndInit();
+            brush.ImageSource = image;
+
+            return brush;
+
+
+        } 
+         
 
         /* Methode, die Ball fliegen lässt */
         private void ballTick(object sender, EventArgs e)

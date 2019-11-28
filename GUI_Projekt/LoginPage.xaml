@@ -14,7 +14,7 @@
         <Button x:Name="NewAccBTN" Content="Account erstellen" HorizontalAlignment="Center" Margin="427,302,58,87.6" VerticalAlignment="Center" Width="315" Height="60" FontSize="36" FontFamily="Bahnschrift Light" Click="CreateUser" RenderTransformOrigin="0.5,0.5">
         </Button>
         <TextBox x:Name="UsernameTF" Background="Wheat" HorizontalAlignment="Left" Height="23" Margin="267,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="PasswordTF" Background="Wheat" HorizontalAlignment="Left" Height="23" Margin="267,228,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="PasswordTF_TextChanged"/>
+        <PasswordBox x:Name="PasswordTF"  Background="Wheat" HorizontalAlignment="Left" Height="23" Margin="267,228,0,0"  VerticalAlignment="Top" Width="120" />
         <Label Content="Benutzername:" Background="Wheat" HorizontalAlignment="Left" Margin="130,174,0,0" VerticalAlignment="Top"/>
         <Label Content="Passwort:" Background="Wheat" HorizontalAlignment="Left" Margin="130,228,0,0" VerticalAlignment="Top"/>
         <Label x:Name="LoginFailedLabel" Visibility="Collapsed" Foreground="Red" FontSize="20" Content="Login fehlgeschlagen!" HorizontalAlignment="Left" Margin="130,385,0,0" VerticalAlignment="Top"/>

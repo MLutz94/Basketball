@@ -10,5 +10,36 @@
   <Level>
     1
   </Level>
+  <Highscore>
+    0
+  </Highscore>
 </User>
+  <User>
+    <Name>
+      Markus1
+    </Name>
+    <Password>
+      test1
+    </Password>
+    <Level>
+      1
+    </Level>
+    <Highscore>
+      500
+    </Highscore>
+  </User>
+  <User>
+    <Name>
+      Markus2
+    </Name>
+    <Password>
+      test2
+    </Password>
+    <Level>
+      1
+    </Level>
+    <Highscore>
+      300
+    </Highscore>
+  </User>
 </ArrayOfUser>

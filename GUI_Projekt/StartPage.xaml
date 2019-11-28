@@ -12,7 +12,8 @@
         <!-- Knopf zum starten des Spiels (Aufrufen von GamePage durch StartGame-Methode -->
         <Button Content="Start" HorizontalAlignment="Center" Margin="335,127,305,229" VerticalAlignment="Center" Width="160" Height="44" FontSize="36" FontFamily="Bahnschrift Light" Click="StartGame" RenderTransformOrigin="0.719,0.533"/>
         <Button Content="Anleitung" HorizontalAlignment="Center" Margin="335,186,305,168" VerticalAlignment="Center" Width="160" Height="46" FontSize="36" FontFamily="Bahnschrift Light" Click="GoToInstructionsPage"/>
-
+        <Button Content="Highscores" HorizontalAlignment="Center" Margin="61,304,528,52" VerticalAlignment="Center" Width="211" Height="44" FontSize="36" FontFamily="Bahnschrift Light" Click="GoToHighscorePage" RenderTransformOrigin="0.719,0.533"/>
+        <Label x:Name="LoggedInAs"  HorizontalAlignment="Left" Margin="648,0,0,0" VerticalAlignment="Top" Width="152"/>
         <Grid.Background>
             <ImageBrush ImageSource="basketballbrett.png"  />
             <!-- Hintergrundbild -->

@@ -58,6 +58,9 @@
     <Compile Include="CreateUserPage.xaml.cs">
       <DependentUpon>CreateUserPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HighscorePage.xaml.cs">
+      <DependentUpon>HighscorePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructionsPage.xaml.cs">
       <DependentUpon>InstructionsPage.xaml</DependentUpon>
     </Compile>
@@ -73,6 +76,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="GamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HighscorePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -12,11 +12,11 @@
         <Label Content="Neuen Account erstellen" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="179,47,0,0" Width="417" FontSize="36" FontFamily="Bahnschrift Light"/>
         <Button x:Name="CreateBTN" Content="Erstellen" HorizontalAlignment="Center" Margin="597,362,53,28" VerticalAlignment="Center" Width="150" Height="60" FontSize="36" FontFamily="Bahnschrift Light" Click="CreateUser" RenderTransformOrigin="0.453,1.217"/>
         <TextBox x:Name="CreateUsernameTF" HorizontalAlignment="Left" Height="23" Margin="306,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="CreatePasswordTF" HorizontalAlignment="Left" Height="23" Margin="306,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="CreatePasswordTF" HorizontalAlignment="Left" Height="23" Margin="304,234,0,0" VerticalAlignment="Top" Width="120"/>
         <Label FontSize="14"  Content="Benutzername:" HorizontalAlignment="Left" Margin="130,174,0,0" VerticalAlignment="Top"/>
         <Label FontSize="14" Content="Passwort:" HorizontalAlignment="Left" Margin="130,228,0,0" VerticalAlignment="Top"/>
         <Label x:Name="CreationFailed" Visibility="Collapsed" Foreground="Red" FontSize="20" Content="Erstellen fehlgeschlagen" HorizontalAlignment="Left" Margin="130,385,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="RetypePasswordTF" HorizontalAlignment="Left" Height="23" Margin="306,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="RetypePasswordTF" HorizontalAlignment="Left" Height="23" Margin="306,288,0,0" VerticalAlignment="Top" Width="120"/>
         <Label FontSize="14" Content="Passwort wiederholen:" HorizontalAlignment="Left" Margin="130,282,0,0" VerticalAlignment="Top"/>
         <Label x:Name="PasswordsDoNotMatch" Visibility="Collapsed" Foreground="Red" FontSize="20" Content="Die Passwörter stimmen nicht überein!" HorizontalAlignment="Left" Margin="130,385,0,0" VerticalAlignment="Top"/>
 

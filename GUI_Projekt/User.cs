@@ -12,5 +12,11 @@ namespace GUI_Projekt
         public string Password { get; set; }
 
         public int Level { get; set; }
+
+        public int Highscore { get; set; }
+
+        public int Rang { get; set; }
+
+        public string BallSkin { get; set; }
     }
 }

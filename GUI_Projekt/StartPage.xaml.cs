@@ -23,24 +23,37 @@ namespace GUI_Projekt
     /// </summary>
     public partial class StartPage : Page
     {
-        public StartPage()
+        User loggedInUser;
+        public StartPage(User user)
         {
+            loggedInUser = user;
             InitializeComponent();
+            LoggedInAs.Content = "Eingeloggt als " + loggedInUser.Name;
         }
+
+        public User getLoggedInUser(){
+            return loggedInUser;
+        } 
 
         /* StartGame wird bei Drücken des Start-Buttons aufgerufen.
          * Ein neues Objekt der Seite GamePage wird Instanziert
          * und diese Seite dann geladen. */
         private void StartGame(object sender, RoutedEventArgs e)
         {
-            GamePage NewGamePage = new GamePage();
+            GamePage NewGamePage = new GamePage(loggedInUser);
             this.NavigationService.Navigate(NewGamePage);
         }
 
         private void GoToInstructionsPage(object sender, RoutedEventArgs e)
         {
-            InstructionsPage NewInstructionsPage = new InstructionsPage();
+            InstructionsPage NewInstructionsPage = new InstructionsPage(loggedInUser);
             this.NavigationService.Navigate(NewInstructionsPage);
+        }
+
+        private void GoToHighscorePage(object sender, RoutedEventArgs e)
+        {
+            HighscorePage NewHighscorePage = new HighscorePage(loggedInUser);
+            this.NavigationService.Navigate(NewHighscorePage);
         }
     }
 }

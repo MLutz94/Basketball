@@ -20,14 +20,16 @@ namespace GUI_Projekt
     /// </summary>
     public partial class InstructionsPage : Page
     {
-        public InstructionsPage()
+        User loggedInUser;
+        public InstructionsPage(User user_in)
         {
+            loggedInUser = user_in;
             InitializeComponent();
         }
 
         private void BackToStartPage(object sender, RoutedEventArgs e)
         {
-            StartPage NewStartPage = new StartPage();
+            StartPage NewStartPage = new StartPage(loggedInUser);
             this.NavigationService.Navigate(NewStartPage);
         }
     }
