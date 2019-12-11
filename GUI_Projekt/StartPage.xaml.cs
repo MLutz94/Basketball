@@ -55,5 +55,11 @@ namespace GUI_Projekt
             HighscorePage NewHighscorePage = new HighscorePage(loggedInUser);
             this.NavigationService.Navigate(NewHighscorePage);
         }
+
+        private void GoToSkinPage(object sender, RoutedEventArgs e)
+        {
+            SkinPage NewSkinPage = new SkinPage(loggedInUser);
+            this.NavigationService.Navigate(NewSkinPage);
+        }
     }
 }

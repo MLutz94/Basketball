@@ -1,0 +1,60 @@
+﻿<Page x:Class="GUI_Projekt.SkinPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI_Projekt"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SkinPage">
+
+    <Grid Background="White">
+
+        <Rectangle  Margin="132,85,452,250">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="bedroom.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Ellipse Margin="319,140,421,250" RenderTransformOrigin="0.458,1.518">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="bedroomball.png"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Label Content="Das Kinderzimmer" FontSize="20" Margin="154,45,471,365"/>
+        <Label Content="freigeschalten &#xD;&#xA;ab Level 3" FontSize="14" Margin="250,200,452,200"/>
+        <Button Content="auswählen" IsEnabled="False" HorizontalAlignment="Center" Margin="132,210,555,213" VerticalAlignment="Center" Width="113" Height="27" FontSize="15" FontFamily="Bahnschrift Light" RenderTransformOrigin="-0.206,-0.881"/>
+        <Rectangle  Margin="454,85,130,250">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="natur.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Ellipse Margin="638,145,102,245" Width="60px" Height="60px
+                 ">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="naturball.png"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Label Content="Die Garage" FontSize="20" Margin="511,45,182,365"/>
+        <Label Content="freigeschalten &#xA;ab Level 5" FontSize="14" Margin="572,200,130,200"/>
+        <Button Content="auswählen" IsEnabled="False" HorizontalAlignment="Center" Margin="454,210,233,213" VerticalAlignment="Center" Width="113" Height="27" FontSize="15" FontFamily="Bahnschrift Light"  RenderTransformOrigin="-0.206,-0.881"/>
+        <Rectangle  Margin="132,296,452,39">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="stadion.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Ellipse Width="60" Height="60" Margin="319,351,421,39">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="stadionball.png"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Label Content="Das Stadion" FontSize="20" Margin="154,256,471,154"/>
+        <Label Content="freigeschalten &#xA;ab Level 10" FontSize="14" Margin="250,400,452,0"/>
+        <Button Content="auswählen" IsEnabled="False" HorizontalAlignment="Center" Margin="132,416,555,7" VerticalAlignment="Center" Width="113" Height="27" FontSize="15" FontFamily="Bahnschrift Light"  RenderTransformOrigin="-0.206,-0.881"/>
+
+        <Button Content="Zurück" HorizontalAlignment="Center" Margin="606,360,44,30" VerticalAlignment="Center" Width="150" Height="60" FontSize="36" FontFamily="Bahnschrift Light" Click="BackToStartPage"/>
+
+
+
+
+    </Grid>
+</Page>

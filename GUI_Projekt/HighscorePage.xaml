@@ -1,0 +1,44 @@
+﻿<Page x:Class="GUI_Projekt.HighscorePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI_Projekt"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HighscorePage">
+
+
+    <Grid Width="800" Height="400" Background="DarkOrange">
+        <Label Content="Highscores" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="297,27,0,0" FontFamily="Bahnschrift Light" FontSize="36"/>
+
+        <Button Content="Zurück" HorizontalAlignment="Center" Margin="632,318,18,22" VerticalAlignment="Center" Width="150" Height="60" FontSize="36" FontFamily="Bahnschrift Light" Click="BackToStartPage"/>
+        <DataGrid HorizontalAlignment="Left" Height="271" Margin="151,107,0,0" VerticalAlignment="Top" Width="449" x:Name="HighscoresDataGrid">
+
+            <!-- Spalten Header Text-->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Rang" Width="*" Binding="{Binding Rang}"/>
+                <DataGridTextColumn Header="Spieler" Width="*" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Level" Width="*" Binding="{Binding Level}"/>
+                <DataGridTextColumn Header="Punkte" Width="*" Binding="{Binding Highscore}"/>
+            </DataGrid.Columns>
+
+            <!-- Spalten Header Style-->
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="Black"></Setter>
+                    <Setter Property="Foreground" Value="White"></Setter>
+                    <Setter Property="BorderThickness" Value="0,0,1,2"></Setter>
+                    <Setter Property="BorderBrush" Value="White"></Setter>
+                </Style>
+
+            </DataGrid.Resources>
+        </DataGrid>
+
+
+
+
+
+    </Grid>
+
+</Page>

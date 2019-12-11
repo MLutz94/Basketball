@@ -158,3 +158,5 @@ C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\
 C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\GUI_Projekt.pdb
 C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\HighscorePage.g.cs
 C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\HighscorePage.baml
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\SkinPage.g.cs
+C:\Users\mlutz.VISION\Documents\GUI Basketball\Basketball\GUI_Projekt\obj\Debug\SkinPage.baml
