@@ -156,8 +156,5 @@
     <Resource Include="baelle.png" />
     <Resource Include="basketballbrett.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="bedroom.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
